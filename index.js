@@ -47,8 +47,8 @@ btton.addEventListener("click",(e)=>{
             updateMap(data.location.lat, data.location.lng,data.location.city);
             input.value = ""
             var icon  =  document.querySelector(".leaflet-marker-icon")
-            icon.src = "./location.svg"
-            icon.style.width = "50px"
+            icon.src = "./images/icon-location.svg"
+            icon.style.width = "40px"
             icon.style.height = "50px"
         })
     .catch(err=> console.error("no Cerro la peticion",err))
